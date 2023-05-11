@@ -8,6 +8,8 @@ module.exports = {
   },
 
   create: async () => {
-    throw Error("Hay un error en la Base de Datos al momento de crear un personaje");
+    throw Error(
+      "Hay un error en la Base de Datos al momento de crear un personaje"
+    );
   },
 };
