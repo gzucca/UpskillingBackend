@@ -1,5 +1,5 @@
-require("dotenv").config();
-console.log('evns', process.env);
+require('dotenv').config({path:__dirname+'/./../../.env'})
+
 module.exports = {
   MONGO_URI: process.env.MONGO_URI,
 };

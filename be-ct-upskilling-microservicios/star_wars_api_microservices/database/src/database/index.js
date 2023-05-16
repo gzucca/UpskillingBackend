@@ -1,6 +1,5 @@
 const mongoose = require("mongoose");
 const { MONGO_URI } = require("../config/envs");
-console.log(MONGO_URI);
 
 const conn = mongoose.createConnection(MONGO_URI);
 
