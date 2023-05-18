@@ -11,7 +11,7 @@
   COPY . .
   # Necesitamos que copie todo de fuente (el primer ".") y lo pegue en la carpeta destino (el segundo "."). Siempre se usa esa estructura, primero lo que se copia, después dónde se pega, separado por un espacio.
 
-  EXPOSE 8000
+  EXPOSE 8003
   #En qué puerto voy a exponer al contenedor.
 
   CMD ["npm", "start"]
